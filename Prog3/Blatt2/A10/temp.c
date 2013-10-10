@@ -20,7 +20,7 @@ int a10(int argc, char **argv) {
 		printf("%s\n", "Was wuenschen Sie zu tun ? Eingabe: ");
 		scanf("%c", &zeichen);
 
-		if (zeichen == 'C') {
+		if (zeichen == 'C'|| zeichen == 'c') {
 			printf("\n Temperatur in Celsius: ");
 			scanf("%f", &temp);
 			temp = ((9 * temp) / 5) + 32;
@@ -28,10 +28,10 @@ int a10(int argc, char **argv) {
 			system("pause");
 
 		}
-		if (zeichen == 'B') {
+		if (zeichen == 'B'|| zeichen=='b') {
 			break;
 		}
-		if (zeichen == 'F') {
+		if (zeichen == 'F'|| zeichen == 'f') {
 			printf("\n Temperatur in Fahrenheit: ");
 			scanf("%f", &temp);
 			temp = (temp - 32) * 5 / 9;
@@ -43,4 +43,6 @@ int a10(int argc, char **argv) {
 
 	return 0;
 }
+
+
 

@@ -9,7 +9,7 @@
 
 int main(int argc, char **argv) {
 
-	a4();
+	a10();
 
 
 	return EXIT_SUCCESS;
