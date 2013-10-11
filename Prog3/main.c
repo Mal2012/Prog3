@@ -5,13 +5,12 @@
  *      Author: Malcolm
  */
 #include <stdio.h>
-#include <stdlib.h>
-
+//#include <stdlib.h>
+#define EXIT_SUCCESS 0;
 int main(int argc, char **argv) {
 
-	a10();
-
-
+a1();
+system("pause");
 	return EXIT_SUCCESS;
 }
 

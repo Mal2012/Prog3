@@ -5,7 +5,7 @@
  *      Author: Malcolm
  */
 #include <stdio.h>
-
+#define EXIT_SUCCESS 0
 int a1(void) {
 	printf("short int: %d\n", sizeof(short int));
 	printf("int: %d\n", sizeof(int));
@@ -15,7 +15,7 @@ int a1(void) {
 	printf("double: %d\n", sizeof(double));
 	printf("long double: %d\n", sizeof(long double));
 
-	system("pause");
-	return 0;
+	//system("pause");
+	return EXIT_SUCCESS;
 }
 

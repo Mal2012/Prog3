@@ -41,5 +41,5 @@ int a8(void) {
 	}
 
 	system("pause");
-	return 0;
+	return EXIT_SUCCESS;
 }
