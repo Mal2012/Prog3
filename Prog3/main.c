@@ -9,7 +9,7 @@
 #define EXIT_SUCCESS 0;
 int main(int argc, char **argv) {
 
-a1();
+a15();
 system("pause");
 	return EXIT_SUCCESS;
 }
