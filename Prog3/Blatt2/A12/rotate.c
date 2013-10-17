@@ -24,7 +24,6 @@ int a12(void){
 unsigned char rotate_bits(unsigned char c, int n){
 	n = n%8;
 	int i;
-
 	for(i=0;i<n;i++){
 		if(c>=128){
 			c=(c<<1)+1;
