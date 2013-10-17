@@ -16,18 +16,20 @@ int a17(int argc, char **argv) {
 	printf("\nBitte Jahr eingeben: \n");
 	scanf("%i", &y);
 
-	j=y%100;
-	h=y/100;
 	if(m==1||m==2){
 		m+=12;
-		j-=1;
+		y-=1;
+
 	}
+	j=y%100;
+	h=y/100;
+
+
 	int w = ((t + (((m + 1) * 26) / 10) + ((5 * j) / 4) + (h / 4) - (2 * h) - 1) % 7);
 
 	while(w<0){
 		w+=7;
 	}
-
 	switch(w){
 	                case 0 : printf("Sonntag\n");
 	                        break;
