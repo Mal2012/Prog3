@@ -23,4 +23,11 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Blatt4/A26/memo.txt</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Debug/memo.txt</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

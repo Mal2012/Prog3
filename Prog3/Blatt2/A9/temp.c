@@ -35,7 +35,7 @@ int a10(int argc, char **argv) {
 			printf("\n Temperatur in Fahrenheit: ");
 			scanf("%f", &temp);
 			temp = (temp - 32) * 5 / 9;
-			printf("\nCelsius: %.2f\n", temp);
+			printf("\nCelsius: %.2f \xf8\n", temp);
 			system("pause");
 
 		}

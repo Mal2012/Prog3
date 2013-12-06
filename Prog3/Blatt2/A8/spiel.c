@@ -40,6 +40,6 @@ int a8(void) {
 
 	}
 
-	system("pause");
+
 	return EXIT_SUCCESS;
 }
